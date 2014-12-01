@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+   <modelVersion>4.0.0</modelVersion>
+   <groupId>lpsolve</groupId>
+   <artifactId>lpsolve</artifactId>
+   <packaging>jar</packaging>
+   <version>5.5.2</version>
+   <name>lpsolve</name>
+ 
+   <build>
+      <extensions>
+         <extension>
+            <groupId>org.apache.maven.wagon</groupId>
+            <artifactId>wagon-webdav</artifactId>
+            <version>1.0-beta-2</version>
+         </extension>
+      </extensions>
+   </build>
+ 
+</project>
+<!--
+mvn deploy:deploy-file -DgroupId=lpsolve -DartifactId=lpsolve -Dversion=5.5.2 -Dpackaging=jar -Dfile=lpsolve55j.jar -Durl=dav:https://repository-ce
+e.forge.cloudbees.com/release/ -DrepositoryId=cee.forge.cloudbees.com-releases
+-->
