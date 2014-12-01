@@ -8,7 +8,8 @@ To use this library in another Maven Project:
 
 Add the following to the pom.xml for releases:
 
-```<repositories>
+```
+<repositories>
     <repository>
         <id>maven.leadoperations.co-release</id>
         <name>AWS S3 Release Repository</name>
@@ -18,7 +19,8 @@ Add the following to the pom.xml for releases:
 ```
 
 or for snapshots:
-```<repositories>
+```
+<repositories>
     <repository>
         <id>maven.leadoperations.co-snapshot</id>
         <name>AWS S3 Snapshot Repository</name>
@@ -32,7 +34,8 @@ or for snapshots:
 
 Then add the dependency:
 
-```<dependency>
+```
+<dependency>
     <groupId>lpsolve</groupId>
     <artifactId>lpsolve</artifactId>
     <version>5.5.2</version>
