@@ -14,8 +14,8 @@ Add the following to the pom.xml for releases:
         <name>AWS S3 Release Repository</name>
         <url>http://maven.leadoperations.co/release</url>
     </repository>
-</repositories>```
-
+</repositories>
+```
 
 or for snapshots:
 ```<repositories>
@@ -27,7 +27,8 @@ or for snapshots:
             <enabled>true</enabled>
         </snapshots>
     </repository>
-</repositories>```
+</repositories>
+```
 
 Then add the dependency:
 
@@ -35,7 +36,8 @@ Then add the dependency:
     <groupId>lpsolve</groupId>
     <artifactId>lpsolve</artifactId>
     <version>5.5.2</version>
-</dependency>```
+</dependency>
+```
 
 To upload a new jar to the maven repository:
 --------------------------------------------
